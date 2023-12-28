@@ -52,7 +52,7 @@ def main():
                     st.write("Correct Answer:", correct_answer)
 
             # Display a shareable link for the quiz
-            quiz_link = f"Your quiz link: [Take Quiz](http://localhost:8501/{quiz_id})"
+            quiz_link = f"Your quiz link: [Take Quiz](https://quiz-creator-using-ai.streamlit.app/{quiz_id})"
             st.markdown(quiz_link)
 
 if __name__ == "__main__":
